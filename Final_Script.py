@@ -265,7 +265,7 @@ data = pd.DataFrame({'Image_link': Image_link, 'Marque':Marque, 'Titre': Titre, 
 
 
 
-data.to_excel('/Users/assimimohamed/Desktop/Products_data.xlsx', encoding="utf-8")
+data.to_csv(encoding="utf-8")
 
 
 
